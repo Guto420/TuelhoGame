@@ -29,7 +29,6 @@ public class Menu extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Game.class);
                 startActivity(intent);
-                finish();
             }
         });
 
@@ -38,7 +37,6 @@ public class Menu extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent2 = new Intent(getApplicationContext(), Creditos.class);
                 startActivity(intent2);
-                finish();
             }
         });
 
